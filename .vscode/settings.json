@@ -1,17 +1,18 @@
 {
   "[powershell]": {
     "debug.saveBeforeStart": "nonUntitledEditorsInActiveGroup",
-    "diffEditor.ignoreTrimWhitespace": true,
-    "editor.renderWhitespace": "boundary",
     "editor.semanticHighlighting.enabled": false,
-    "editor.trimAutoWhitespace": true,
-    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
-    "files.encoding": "utf8",
-    "files.eol": "\n",
     "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+    "files.eol": "\r\n"
   },
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.trimAutoWhitespace": true,
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
   "powershell.analyzeOpenDocumentsOnly": true,
   "powershell.buttons.showPanelMovementButtons": false,
   "powershell.buttons.showRunButtons": true,
